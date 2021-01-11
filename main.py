@@ -21,14 +21,6 @@ if __name__ == '__main__':
     G.add_edge(2, 8, weight=10)
     G.add_edge(3, 7, weight=2)
 
-    # G.add_edge(0, 4, weight=1)
-    # G.add_edge(0, 6, weight=3)
-    # G.add_edge(1, 5, weight=1)
-    # G.add_edge(1, 7, weight=3)
-    # G.add_edge(2, 6, weight=1)
-    # G.add_edge(2, 8, weight=10)
-    # G.add_edge(3, 7, weight=1)
-
     answer = networkx.max_weight_matching(G)
     print("mine = ")
     print(answer)
